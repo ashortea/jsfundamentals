@@ -1,0 +1,14 @@
+table, th, td{ border: solid 2px black;
+background-color: lightskyblue;}
+
+.title{
+    font-style: italic
+}
+
+table{margin: auto;
+
+}
+
+h2{
+    text-align: center;
+}
