@@ -5,22 +5,23 @@
         -default keywords specifies code to run if there is no case to match
 */
 
-let officeCharacter = 'Michael'
-
-switch (officeCharacter){
-case 'Michael':
-    console.log('My mind is going a mile a hour');
-    break;
-    case 'Dwight':
-        console.log('i am fast.to give you a referanace, i am somewhere between a snake and a mongose...And a panther');
+let officeCharacter = 'Jim';
+​
+switch (officeCharacter) {
+    case 'Michael':
+        console.log('My mind is going a mile an hour');
         break;
-        case 'Jim':
-            console.log(' Bears , beets. BG');
-            break;
-            default: 
-            console.log('i am sorry,' $(officeCharacter),' but do i know you?');
-
+    case 'Dwight':
+        console.log('I am fast. To give you a reference point, im somewhere between a snake and a mongoose... And a panther');
+        break;
+    case 'Jim':
+        console.log(`Bears. Beets. Battlestar Galactica`);
+        break;
+    default:
+        console.log(`I'm sorry, ${officeCharacter}, but do I know you?`);
+        // backticks are used for string interpolation
 }
+
 
 //////////////////////////////////////
 

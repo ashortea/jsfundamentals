@@ -54,6 +54,18 @@ console.log(name[0])
 console.log(name.slice(1).toLowerCase())
 }
 
+
+let name = 'ZAchARy';
+​
+if (name[0] == name[0].toUpperCase()) {
+    let isUppercase = name[0] + name.slice(1).toLowerCase();
+    console.log('console.log #1:', isUppercase);
+} else {
+    let notUppercase = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+    console.log('console.log #2:', notUppercase);
+}
+
+
 //the slice method extracts parts of a string and returns the exstracted parts of the new string
 
 let name = 'zAchARy';
