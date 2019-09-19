@@ -17,14 +17,15 @@ let person3 = {
 }
 
 // (1)    (2)           (3)
-function Person( name, age, canVote) {
+function Person(name, age, canVote) {
     //(4)  (5)  (6)
     this.name = name;
     this.age = age;
     this.canVote = canVote;
 }
 //            (7)  (8)
-let person4 = new Person('James', 80, true)
+let person4 = new Person('James', 80, true);
+console.log(person4);
 
 /*
 1. the function keyword
