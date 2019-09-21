@@ -11,7 +11,7 @@ key3: 'value',
 }
 
 
-let netflix ={
+let netflix ={ 
     id: 1,
     name: 'the Office',
     season1: {
@@ -47,7 +47,7 @@ let netflix ={
 
 // console.log("All Data:", netflix);
 // console.log("Season Info:", netflix.season1.episodeInfo);
-// console.log("Specific Episode Name:", netflix.season1.episodeInfo[3].episodeName);
+console.log("Specific Episode Name:", netflix.season1.episodeInfo[3].episodeName);
 
 console.log(`episode number: ${netflix.season1.episodeInfo[4].episode}`, netflix.season1.episodeInfo[5].episodeName)
 
